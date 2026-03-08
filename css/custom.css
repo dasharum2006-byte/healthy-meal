@@ -92,3 +92,54 @@ body {
   color: white;
   text-decoration: underline;
 }
+.pure-menu-link.active {
+  font-weight: bold;
+  color: #000 !important;
+}
+/* Стили для формы */
+.order-section {
+  padding: 4rem 2rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.field {
+  margin-bottom: 1.5rem;
+}
+
+.field label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.required {
+  color: #dd3081;
+}
+
+.help-text {
+  margin-top: 0.25rem;
+  font-size: 0.875rem;
+  color: #b3b0b057;
+}
+
+.error-text {
+  color: #e73ca5;
+}
+
+.input-error {
+  border: 2px solid #e73cae !important;
+  background-color: #fdf2f2;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.pure-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}

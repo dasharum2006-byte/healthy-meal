@@ -83,7 +83,47 @@
       </div>
     </div>
   </section>
+<section id="order" class="order-section">
+  <h2 class="section-title">Заказать пробный день</h2>
+  
+  <form id="feedbackForm" class="pure-form pure-form-stacked">
+    
+    <div class="field">
+      <label for="fullname">ФИО <span class="required">*</span></label>
+      <input type="text" id="fullname" class="pure-input-1" placeholder="Иванов Иван Иванович">
+      <p class="help-text" id="fullnameHelp"></p>
+    </div>
 
+    <div class="field">
+      <label for="phone">Телефон <span class="required">*</span></label>
+      <input type="tel" id="phone" class="pure-input-1" placeholder="+7 (___) ___-__-__">
+      <p class="help-text" id="phoneHelp"></p>
+    </div>
+
+    <div class="field">
+      <label for="email">Email <span class="required">*</span></label>
+      <input type="email" id="email" class="pure-input-1" placeholder="example@mail.ru">
+      <p class="help-text" id="emailHelp"></p>
+    </div>
+
+    <div class="field">
+      <label for="message">Сообщение</label>
+      <textarea id="message" class="pure-input-1" rows="4" placeholder="Ваш комментарий..."></textarea>
+    </div>
+
+    <div class="field">
+      <label class="pure-checkbox">
+        <input type="checkbox" id="agreement" required>
+        Я согласен на обработку персональных данных
+      </label>
+    </div>
+
+    <div class="button-group">
+      <button type="submit" class="pure-button pure-button-primary">Отправить</button>
+      <button type="reset" class="pure-button">Очистить</button>
+    </div>
+  </form>
+</section>
   <footer id="contact" class="footer">
     <p>📧 info@wealthy.ru | ☎ +7 (700) 204-45-67</p>
     <p>
@@ -91,6 +131,7 @@
       <a href="https://vk.com" target="_blank" rel="noopener" aria-label="VK">VK</a>
     </p>
   </footer>
-
+<script src="scripts/validation.js"></script>
+<script src="scripts/consoleLogger.js"></script>
 </body>
 </html>
